@@ -1,33 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google AdSense Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kred — Track Money You Lend</title>
+<meta name="description" content="Kred is a simple Android app for keeping track of money you have lent to friends and family. It is a record-keeping tool, not a lender.">
 
-    <!-- Google AdSense Meta Tag -->
-    <meta name="google-adsense-account" content="ca-pub-5107486510151062">
+<!-- Google AdSense account verification — do not remove -->
+<meta name="google-adsense-account" content="ca-pub-5107486510151062">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5107486510151062" crossorigin="anonymous"></script>
 
-    
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5107486510151062"
-        crossorigin="anonymous"></script>
+<style>
+  :root {
+    --brand: #1a6b4a;
+    --bg: #ffffff;
+    --surface: #f4f6f5;
+    --text: #14181a;
+    --muted: #5c6a66;
+    --border: #e2e7e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1211;
+      --surface: #171d1b;
+      --text: #eef2f0;
+      --muted: #9aa8a3;
+      --border: #26302d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1211;
+    --surface: #171d1b;
+    --text: #eef2f0;
+    --muted: #9aa8a3;
+    --border: #26302d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 64px; }
+  header { padding: 56px 0 8px; }
+  .mark {
+    width: 56px; height: 56px; border-radius: 14px;
+    background: var(--brand); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; font-weight: 800; letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.5px; }
+  .tagline { color: var(--muted); font-size: 1.1rem; margin: 0 0 28px; }
+  h2 { font-size: 1.1rem; margin: 40px 0 12px; letter-spacing: -0.2px; }
+  p { margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--brand); }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) a { color: #4ec08d; }
+  }
+  .cta {
+    display: inline-block; background: var(--brand); color: #fff;
+    text-decoration: none; font-weight: 600;
+    padding: 13px 22px; border-radius: 12px; margin-bottom: 8px;
+  }
+  .note {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px 18px; margin: 28px 0;
+    color: var(--muted); font-size: 0.95rem;
+  }
+  footer {
+    border-top: 1px solid var(--border); margin-top: 48px; padding-top: 24px;
+    color: var(--muted); font-size: 0.9rem;
+  }
+  footer a { margin-right: 18px; display: inline-block; }
+</style>
 </head>
 <body>
+<div class="wrap">
 
-    <h1>Google AdSense Integration</h1>
+  <header>
+    <div class="mark">K</div>
+    <h1>Kred — Track Money You Lend</h1>
+    <p class="tagline">A simple ledger for money between friends and family.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.kred.app">Get it on Google Play</a>
+  </header>
 
-    <!-- AdSense Ad Unit -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-5107486510151062"
-         data-ad-slot="2706764822"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
+  <h2>What Kred does</h2>
+  <p>Lent someone money and can't remember whether they paid you back? Kred keeps the record. You log what you lent, to whom, and when it's due. As repayments come in — including partial ones — you log those too, and Kred shows you exactly what's still outstanding.</p>
 
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+  <ul>
+    <li>Record money you lend, with an optional due date</li>
+    <li>Log partial and full repayments as they happen</li>
+    <li>See who still owes you and how much, at a glance</li>
+    <li>Colour-coded status: active, due soon, overdue, settled</li>
+    <li>Works offline and syncs when you're back online</li>
+    <li>Reminders, per-person summaries, analytics and CSV export on Premium</li>
+  </ul>
 
+  <div class="note">
+    <strong>Kred is not a lender.</strong> It does not lend money, charge interest, process payments, or connect you with lenders. It is a private record-keeping tool for money you have already lent to people you know.
+  </div>
+
+  <h2>Your data</h2>
+  <p>Your records sync to your own private account and nobody else can read them. Your sign-in is stored in your phone's secure keystore. You can delete your account and everything in it from inside the app, under Settings — no email required, no waiting on support.</p>
+
+  <h2>Support</h2>
+  <p>Questions, problems or feedback: <a href="mailto:clemenetabishek@gmail.com">clemenetabishek@gmail.com</a></p>
+
+  <footer>
+    <a href="https://abishekasir.github.io/kred-privacy/">Privacy Policy</a>
+    <a href="https://abishekasir.github.io/kred-privacy/delete-account">Delete Account</a>
+    <a href="https://play.google.com/store/apps/details?id=com.kred.app">Google Play</a>
+  </footer>
+
+</div>
 </body>
 </html>
